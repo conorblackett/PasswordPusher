@@ -5,7 +5,7 @@ spec:
     environment_slug: ruby-on-rails
     git:
       branch: master
-      repo_clone_url: https://github.com/pglombardo/PasswordPusher.git
+      repo_clone_url: https://github.com/conorblackett/PasswordPusher.git
     envs:
     # Private
     - key: RAILS_ENV
@@ -87,7 +87,7 @@ spec:
     github:
       branch: master
       deploy_on_push: true
-      repo: pglombardo/PasswordPusher
+      repo: identitymgmt.azurecr.io/pwpush-teck-ephemeral-test
     instance_count: 1
     instance_size_slug: basic-xxs
     kind: POST_DEPLOY
